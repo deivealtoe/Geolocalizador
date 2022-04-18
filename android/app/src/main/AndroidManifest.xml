@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.geolocator_test">
    <application
-        android:label="Geolocator Test"
+        android:label="Geolocalizador"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

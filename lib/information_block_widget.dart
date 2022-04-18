@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CoordinateWidget extends StatelessWidget {
-  const CoordinateWidget({
+class InformationBlockWidget extends StatelessWidget {
+  const InformationBlockWidget({
     Key? key,
     required String textToDisplay,
   })  : _textToDisplay = textToDisplay,
@@ -13,7 +13,7 @@ class CoordinateWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Align(
       child: SizedBox(
-        width: 250,
+        width: 290,
         height: 50,
         child: Container(
           alignment: Alignment.center,
@@ -22,6 +22,7 @@ class CoordinateWidget extends StatelessWidget {
             _textToDisplay,
             textAlign: TextAlign.center,
             style: const TextStyle(
+              fontSize: 22,
               color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
