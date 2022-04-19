@@ -1,18 +1,22 @@
-# geolocator_test
+# Geolocalizador
 
-A new Flutter project.
+Um projeto criado com Flutter 🙋
 
-## Getting Started
+## Sobre
 
-This project is a starting point for a Flutter application.
+Esse é um projeto bem tranquilo 
 
-A few resources to get you started if this is your first Flutter project:
+O que ele faz, nada mais é que 🫴
+- Pedir permissão para usar o GPS 😇
+- Usar o GPS para pegar os seguintes dados do celular 😌
+  - Longitude 
+  - Latitude
+  - Altitude
+  - Precisão
+- E mostrar na tela 📺
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Utilizando ```async``` e ```await``` 📍
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Como também a biblioteca ```Geolocator``` disponível [aqui](https://pub.dev/packages/geolocator) 🗺️
 
-<img src="./for_readme/geolocator_test.gif" style="height: 650px;">
+<img src="./for_readme/geolocalizador.gif" style="height: 650px;">
